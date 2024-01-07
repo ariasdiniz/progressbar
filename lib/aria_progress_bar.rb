@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require_relative 'stepstone/version'
+require_relative 'progressbar/version'
 
 ##
-# StepStone is a simple module to create
+# ProgressBar is a simple module to create
 # progress bars for your iterables.
-module Stepstone
+module AriaProgressBar
   ##
   # Creates a progress bar for your iterable.
   # @param iterable [Enumerable] The iterable to create a progress bar for.

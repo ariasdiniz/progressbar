@@ -4,29 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719db575-f624-42bd-b92b-979dd24f42e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stepstone.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stepstone/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sig/stepstone.rbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stepstone.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_stepstone.rb" afterDir="false" />
+    <list default="true" id="719db575-f624-42bd-b92b-979dd24f42e7" name="Changes" comment="Simple Ruby Gem to create progress bars for iterables!">
+      <change afterPath="$PROJECT_DIR$/lib/progressbar/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/stepstone.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/progress_bar.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/stepstone/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepstone.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/progressbar.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_stepstone.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_progressbar.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,12 +73,25 @@
       <workItem from="1704593390308" duration="272000" />
       <workItem from="1704634795411" duration="848000" />
       <workItem from="1704635652880" duration="1683000" />
-      <workItem from="1704637344103" duration="1283000" />
+      <workItem from="1704637344103" duration="2855000" />
     </task>
+    <task id="LOCAL-00001" summary="Simple Ruby Gem to create progress bars for iterables!">
+      <option name="closed" value="true" />
+      <created>1704638716913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704638716913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Simple Ruby Gem to create progress bars for iterables!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Ruby Gem to create progress bars for iterables!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/stepstone@test_progress_bar_with_empty_iterable.rcov" NAME="test_progress_bar_with_empty_iterable Coverage Results" MODIFIED="1704638312931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="stepstone" />

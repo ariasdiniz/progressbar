@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative 'lib/stepstone/version'
+require_relative 'lib/progressbar/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'stepstone'
-  spec.version = Stepstone::VERSION
+  spec.name = 'aria_progress_bar'
+  spec.version = AriaProgressBar::VERSION
   spec.authors = ['Aria Diniz']
   spec.email = ['aria.diniz.dev@gmail.com']
 
   spec.summary = 'Simple progress bar for Ruby'
   spec.description = 'Simple progress bar for Ruby'
-  spec.homepage = 'https://github.com/ariasdiniz/stepstone'
+  spec.homepage = 'https://github.com/ariasdiniz/progressbar'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.7.0'
 
