@@ -35,7 +35,6 @@ array = [1, 2, 3, 4, 5]
 # Create a progress bar for the array
 AriaProgressBar.bar(array) do |element|
   # Perform your operation
-  puts "Processing element #{element}"
 end
 ```
 

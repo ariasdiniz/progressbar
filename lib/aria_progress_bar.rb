@@ -26,5 +26,6 @@ module AriaProgressBar
 (bar_percentage * multiplier).round(2)}%"
       bar_percentage += bar
     end
+    print "\n"
   end
 end
